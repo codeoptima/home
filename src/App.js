@@ -6,7 +6,7 @@ function App() {
     <div className="resume">
       <div className="resume_left">
         <div className="resume_profile">
-          {/* <img src="https://codeoptima.in/saleem_profile.jpeg" alt="profile_pic"> */}
+          <img src="saleem.jpg" alt="profile_pic"/>
         </div>
         <div className="resume_content">
           <div className="resume_item resume_info pt-0">
@@ -41,7 +41,7 @@ function App() {
               </li>
               <li>
                 <div className="icon">
-                  <i className="fa fa-weebly"></i>
+                  <i className="fa fa-globe"></i>
                 </div>
                 <div className="data">
                   <a href="https://codeoptima.in" className="cl-white">codeoptima.in</a>
@@ -64,7 +64,7 @@ function App() {
             <ul>
               <li>
                 <div className="icon">
-                  <i className="fa fa-solid fa-user-graduate"></i>
+                  <i className="fa fa-graduation-cap"></i>
                 </div>
                 <div className="data">
                   <p className="semi-bold">MCA - Pune University</p>
@@ -114,12 +114,12 @@ function App() {
           <div className="title">
             <p className="bold">About me</p>
           </div>
-          <p>I have honed my skills in developing and maintaining .NET
+          <p className="tb-1">&#32;&#32;&#32;&#32;&#32;&#32;I have honed my skills in developing and maintaining .NET
             applications, ensuring high performance and scalability. My expertise extends to the full stack, encompassing
             both front-end and back-end technologies. </p>
-          <p>My journey has also led me to embrace leadership roles, where I've
+          <p className="tb-1">&#32;&#32;&#32;&#32;&#32;&#32;My journey has also led me to embrace leadership roles, where I've
             excelled in guiding cross-functional teams, fostering collaboration, and delivering projects on time.</p>
-          <p>I am excited about the prospect of contributing my skills and
+          <p className="tb-1">&#32;&#32;&#32;&#32;&#32;&#32;I am excited about the prospect of contributing my skills and
             leadership to a dynamic organization that values innovation, collaboration, and a relentless pursuit of
             technical excellence.</p>
         </div>
@@ -175,8 +175,8 @@ function App() {
             <li className="lst-disc">Experience in working in an <b>Agile or Scrum</b> Team.</li>
             <li className="lst-disc">Excellent <b>Problem-Solving</b> skills and a demonstrated ability to navigate complex
               challenges.</li>
-            <li className="lst-disc">Proven track record of delivering high-quality software projects on time and
-              <b>Leadership</b> experience in managing various technologies such as .NET MVC, Core, Blazor, React, Angular,
+            <li className="lst-disc">Proven track record of delivering high-quality software projects on time and <b>Leadership</b> experience 
+              in managing various technologies such as ASP.NET MVC, Core, Blazor, React, Angular,
               MS Dynamic 365 across multiple teams.</li>
             <li className="lst-disc">Good knowledge of Code Review, Optimization & Estimation.</li>
           </ul>
