@@ -6,13 +6,13 @@ function App() {
     <div className="resume">
       <div className="resume_left">
         <div className="resume_profile">
-          <img src="saleem.jpg" alt="profile_pic"/>
+          <img src="saleem.jpg" alt="profile_pic" />
         </div>
         <div className="resume_content">
-          <div className="resume_item resume_info pt-0">
+          <div className="resume_item resume_info pt-0 text-center">
             <div className="title">
               <p className="bold">Saleem Shaikh</p>
-              <p className="regular">Project Leader / Solution Architect</p>
+              <p className="regular">Project / Tech Lead</p>
             </div>
             <ul>
               <li>
@@ -107,6 +107,31 @@ function App() {
               </li>
             </ul>
           </div>
+          <div class="resume_item resume_social">
+            <div class="title">
+              <p class="bold">Achievements</p>
+            </div>
+            <ul>
+              <li>
+                <div class="icon">
+                  <i class="fa fa-trophy"></i>
+                </div>
+                <div class="data">
+                  <p class="semi-bold">Top Performer Award</p>
+                  <p>6 Times</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <i class="fa fa-users"></i>
+                </div>
+                <div class="data">
+                  <p class="semi-bold">Best Leadership Award</p>
+                  <p>3 Times</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="resume_right">
@@ -175,7 +200,7 @@ function App() {
             <li className="lst-disc">Experience in working in an <b>Agile or Scrum</b> Team.</li>
             <li className="lst-disc">Excellent <b>Problem-Solving</b> skills and a demonstrated ability to navigate complex
               challenges.</li>
-            <li className="lst-disc">Proven track record of delivering high-quality software projects on time and <b>Leadership</b> experience 
+            <li className="lst-disc">Proven track record of delivering high-quality software projects on time and <b>Leadership</b> experience
               in managing various technologies such as ASP.NET MVC, Core, Blazor, React, Angular,
               MS Dynamic 365 across multiple teams.</li>
             <li className="lst-disc">Good knowledge of Code Review, Optimization & Estimation.</li>

@@ -40,12 +40,12 @@ body {
 
 .resume .resume_left .resume_profile {
   width: 100%;
-  height: 315px;
+  height: 280px;
 }
 
 .resume .resume_left .resume_profile img {
-  width: 85%;
-  margin-left: 6%;
+  width: 75%;
+  margin-left: 12%;
   margin-top: 6%;
 }
 
@@ -270,10 +270,6 @@ ul li.tpline:after {
   white-space: pre-wrap;
 }
 
-.mt-75 {
-  margin-top: 75px;
-}
-
 .pt-63 {
   padding-top: 63px !important;
 }
@@ -287,22 +283,38 @@ ul li.tpline:after {
   margin-top: 12px;
 }
 
-.mt-45 {
-  margin-top: 45px;
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-55 {
+  margin-top: 55px;
 }
 
 .pt-30 {
   padding-top: 30px;
 }
 
-.ht-97 {
-  height: 97px;
+.ht-77 {
+  height: 77px;
 }
 
-.ht-65 {
-  height: 65px;
+.ht-75 {
+  height: 75px;
 }
 
 .pt-3 {
-  padding-top: 3px !important;
+  padding-top: 13px !important;
+}
+
+.fn-sz-13 {
+  font-size: 13px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.ht-3pg-empty {
+  height: 585px;
 }
